@@ -1,5 +1,5 @@
 ###############################################################################
-# COPD Markov model -> microsimulation: baseline technical validation (v2)
+# COPD Markov model -> microsimulation: baseline technical validation
 #
 # Purpose:
 #   1. Reproduce the deterministic logic of the simplified benchmark model.
@@ -30,7 +30,7 @@ OUTPUT_DIR <- file.path(getwd(), "validation_output")
 dir.create(OUTPUT_DIR, showWarnings = FALSE, recursive = TRUE)
 
 # -----------------------------------------------------------------------------
-# Model parameters from Markov_model_simplified_neuer_Github(2).txt
+# Model parameters from Markov_model_simplified_Github_incl_checks.r
 # -----------------------------------------------------------------------------
 n_rows <- 241L                 # baseline row + 240 quarterly transitions
 cycle_length_months <- 3
